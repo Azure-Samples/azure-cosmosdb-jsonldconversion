@@ -1,0 +1,7 @@
+hosts: [jsonldgraph.gremlin.cosmos.azure.com]
+port: 443
+username: /dbs/Bechtel/colls/jsonldgraphson
+password: PA6rEUw87go9NVkEACeJaJ4rl4o3iQD2vuRRhlHUZFpYfxLc1WrcEyeySJ4CK8BlpILdiQAqAq195lxGNBa1aA==
+connectionPool: {
+  enableSsl: true}
+serializer: { className: org.apache.tinkerpop.gremlin.driver.ser.GraphSONMessageSerializerV2d0, config: { serializeResultToString: true }}
